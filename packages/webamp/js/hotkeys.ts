@@ -86,6 +86,7 @@ export function bindHotkeys(dispatch: Dispatch): () => void {
         case 66: // B
           dispatch(next());
           break;
+        case 32: // space bar
         case 67: // C
           dispatch(pause());
           break;
